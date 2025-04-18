@@ -1,9 +1,9 @@
-
 import React, { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Eye, EyeOff } from 'lucide-react';
+import WaveDecoration from './WaveDecoration';
 
 const LoginCard = () => {
   const [showPassword, setShowPassword] = useState(false);
@@ -23,8 +23,9 @@ const LoginCard = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-blue-100">
-      <div className="w-full max-w-md p-8 bg-white rounded-2xl shadow-lg">
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-blue-100 relative">
+      <WaveDecoration />
+      <div className="w-full max-w-md p-8 bg-white/95 backdrop-blur-sm rounded-2xl shadow-lg relative z-10">
         <h2 className="text-2xl font-semibold text-center text-gray-800 mb-6">
           Login to ReferralHub
         </h2>
