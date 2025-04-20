@@ -19,7 +19,7 @@ import PayoutLayout from "./components/PayoutLayout";
 import AllPayouts from "./components/Allpayouts";
 import Disputes from "./components/Disputes";
 import PayoutSettings from "./components/PayoutSettings";
-import Dashboard from "./components/dashboard";
+import Dashboard from "./components/Dashboard"
 import AIAgentChat from "./components/AIAgentChat";
 
 // Import Components
