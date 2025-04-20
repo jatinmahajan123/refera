@@ -11,7 +11,7 @@ import {
   Tooltip,
   Legend
 } from 'chart.js';
-import './Dashboard.css'; // Assuming you have a CSS file for styles
+import './dashboard.css'; 
 
 ChartJS.register(
   CategoryScale,
